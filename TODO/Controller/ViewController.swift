@@ -10,14 +10,12 @@ import UIKit
 import FirebaseAuth
 import FirebaseDatabase
 
-var kUser: User?
+
 
 class ViewController: UIViewController {
 
     @IBOutlet private weak var tableView: UITableView!
-
     private var items: [Item] = []
-    let ref = Database.database().reference(withPath: "users")
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -25,7 +23,6 @@ class ViewController: UIViewController {
         Auth.auth().addStateDidChangeListener { (auth, user) in
             guard let user = user  else { return }
             kUser = user
-            self.tableView.reloadData()
         }
 
         guard let id = kUser?.uid else { return }
@@ -38,12 +35,6 @@ class ViewController: UIViewController {
             self.items = items
             self.tableView.reloadData()
         }
-    }
-
-    override func viewWillAppear(_ animated: Bool) {
-        super.viewWillAppear(animated)
-
-        tableView.reloadData()
     }
 
     @IBAction func signOut(_ sender: UIBarButtonItem) {
