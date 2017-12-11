@@ -1,0 +1,117 @@
+{
+   "fruits":[
+      {
+         "name":"Apple 🍎"
+      },
+      {
+         "name":"Pear 🍐"
+      },
+      {
+         "name":"Orange 🍊"
+      },
+      {
+         "name":"Banana 🍌"
+      },
+      {
+         "name":"Watermelon 🍉"
+      },
+      {
+         "name":"Grapes 🍇"
+      },
+      {
+         "name":"Strawberry 🍓"
+      },
+      {
+         "name":"Melon 🍈"
+      },
+      {
+         "name":" Cherries 🍒"
+      },
+      {
+         "name":"Peach 🍑"
+      },
+      {
+         "name":"🍍"
+      }
+   ],
+   "vegetables":[
+      {
+         "name":"Potato 🥔"
+      },
+      {
+         "name":"Eggplant 🍆"
+      },
+      {
+         "name":"Carrot 🥕"
+      },
+      {
+         "name":"Cucumber 🥒"
+      },
+      {
+         "name":"Tomato 🍅"
+      },
+      {
+         "name":"Avocado 🥑"
+      },
+      {
+         "name":"Ear of Corn 🌽"
+      },
+      {
+         "name":"Sweet Potato 🍠"
+      },
+      {
+         "name":"Hot Pepper 🌶"
+      }
+   ],
+   "dairy":[
+      {
+         "name":"Egg 🥚"
+      },
+      {
+         "name":"coirssant 🥐"
+      },
+      {
+         "name":"cheese 🧀"
+      },
+      {
+         "name":"Baguette 🥖"
+      },
+      {
+         "name":" Bread 🍞"
+      }
+   ],
+   "meat":[
+      {
+         "name":" Poultry 🍗"
+      },
+      {
+         "name":"Beef / Pork 🍖"
+      },
+      {
+         "name":"Bacon 🥓"
+      },
+      {
+         "name":" Shirmp 🍤"
+      }
+   ],
+   "mics":[
+      {
+         "name":"Bento Box 🍱"
+      },
+      {
+         "name":"Rice Cracker 🍘 "
+      },
+      {
+         "name":"Rice Ball 🍙"
+      },
+      {
+         "name":"Cooked Rice 🍚"
+      },
+      {
+         "name":"Curry Rice 🍛"
+      },
+      {
+         "name":"Steaming Bowl 🍜"
+      }
+   ]
+}
